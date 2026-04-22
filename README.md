@@ -23,16 +23,10 @@ It is designed with a modular and scalable architecture, making it easy to exten
 User Input ↓ Intent Detection (ML Model) ↓ Router (Decision Layer) ↓ Module (Chatbot / Recommender) ↓ Response to User
 
 
+## How to Run
 
-## Project Structure
-project/ │ ├── api/               # FastAPI backend ├── core/              # Routing logic ├── modules/           # Chatbot & recommender ├── models/            # Trained ML models (.pkl) ├── ui/                # Streamlit UI ├── train_model.py     # Model training script ├── README.md └── requirements.txt
-
-
-
-### How to Run
-
-### 1 Install dependencies
-```bash
+1 Install dependencies
+bash
 pip install -r requirements.txt
 
 2 Train model
@@ -48,20 +42,20 @@ Bash
 streamlit run ui/ui.py
 
 
-### Example Inputs
+## Example Inputs
 "hi"
 "recommend movie"
 "action"
 "hello"
 
-### Technologies Used
+## Technologies Used
 Python
 FastAPI
 Streamlit
 Scikit-learn
 Uvicorn
 
-### Future Improvements
+## Future Improvements
 Add multi-domain support (music, news, etc.)
 Improve ML model accuracy
 Add user context memory
