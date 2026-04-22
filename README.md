@@ -26,18 +26,18 @@ User Input ↓ Intent Detection (ML Model) ↓ Router (Decision Layer) ↓ Modul
 ## How to Run
 
 1 Install dependencies
-bash
+Bash
 pip install -r requirements.txt
 
 2 Train model
 Bash
 python train_model.py
 
-3️ Run backend (API)
+3 Run backend (API)
 Bash
 python -m uvicorn api.app_api:app --reload
 
-4️ Run frontend (UI)
+4 Run frontend (UI)
 Bash
 streamlit run ui/ui.py
 
